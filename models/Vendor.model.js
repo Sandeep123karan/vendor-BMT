@@ -22,7 +22,7 @@ const vendorSchema = new mongoose.Schema(
 
     service: {
       type: String,
-      enum: ["cab", "bus", "train", "homestay", "hotel"],
+      enum: ["Cabs", "Buses", "train", "homestay", "hotel"],
       required: true
     }
   },
